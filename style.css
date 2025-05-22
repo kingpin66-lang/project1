@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.con {
+    margin: auto;
+    width: 1200px;
+}
+
+.p {
+    padding: 20px;
+}
+
+.ai {
+    align-items: center;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.ta {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+
+    height: 800px;
+    background-image: url(https://waffy-demo.myshopify.com/cdn/shop/files/slider1_1.jpg?v=1621575990)
+}
+
+.li {
+    color: white;
+    background: black;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+   
+}
+
+.right {
+    margin-left: 0%;
+}
+
+h2 {
+    color: white;
+    font-family: "Spicy Rice", serif;
+    font-weight: bolder;
+    font-size: 50px;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+}
+
+.cap {
+    margin-top: 120px;
+}
+
+h3 {
+    color: yellow;
+    font-family: "Roboto", sans-serif;
+    border-top: 1px solid rgb(187, 227, 41);
+    border-bottom: 1px solid rgb(187, 227, 41);
+    padding: 10px;
+    font-size: 40px;
+    font-weight: medium;
+    display: inline-block;
+}
+
+.h2 {
+    font-family: "Spicy Rice", serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #9F4103;
+
+}
+
+.q {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+button {
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+    border-color: #9F4103;
+    background: wheat;
+    font-size: larger;
+    
+}
+
+button:hover {
+    background: #F4B323;
+    color: whitesmoke;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.w {
+    color: #9F4103;
+    font-family: "Spicy Rice", serif;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.box {
+    box-shadow: 1px 1px 5px 1px whitesmoke;
+    border-radius: 10px;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    display: inline-block;
+}
+
+:hover.box {
+    border-left: #9F4103 solid 2px;
+    border-right: #9F4103 solid 2px;
+    border-top: #F4B323 solid 2px;
+    border-bottom: #F4B323 solid 2px;
+    transform: scale(1.1);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+:hover.w {
+    color: #F4B323;
+    transition: 1s;
+    cursor: pointer;
+}
+
+nav {
+    background-image: url(https://images.unsplash.com/photo-1598371624473-4d95aca694e3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZHJ5JTIwZnJ1aXRzfGVufDB8fDB8fHww);
+    background-attachment: fixed;
+
+}
+
+.h5 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+.d1 {
+    padding: 50px;
+}
+
+.h4 {
+    color: #F4B323;
+    padding-left: 20px;
+}
+
+.view {
+    background: none;
+    border: 2px solid #F4B323;
+    color: white;
+}
+
+.left1 {
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.boxani{
+    top: 0px;
+    left: -400px;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    background: linear-gradient(transparent, black);
+}
+:hover.left1 .boxani{ 
+ animation: p 1s ;animation-fill-mode:forwards; 
+ background: linear-gradient(transparent, black);
+}
+@keyframes p {100%{left:0px;} 
+}
+.middle1 {
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+}
+
+.right1 {
+    width: 33%;
+    position: relative;
+
+}
+
+.i1 {
+    height: 50%;
+    padding-bottom: 20px;
+    
+}
+
+.boxani1{
+    top: 50px;
+    left: -400px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, black);
+    position: absolute;
+}
+:hover.middle1 .boxani1{ 
+    animation: p 1s ;animation-fill-mode:forwards; 
+    background: linear-gradient(transparent, black);
+   }
+   @keyframes p {100%{left:0px;} 
+   }
+
+.i2 {
+    height: 50%;
+
+}
+
+.i3 {
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.i4 {
+    height: 10%;
+
+}
+
+.box2 {
+    top: 30px;
+    left: 20%;
+    position: absolute;
+    height: fit-content;
+    background: black;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+.box3 {
+    bottom: 220px;
+    right: 30px;
+    color: white;
+    position: absolute;
+    height: fit-content;
+    background: linear-gradient(transparent, black);
+    padding: 20px;
+    align-items: center;
+
+}
+
+.box4 {
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    position: absolute;
+
+    background: linear-gradient(transparent, black);
+    padding: 20px;
+    align-items: center;
+
+}
+
+.box5 {
+    right: 20px;
+    bottom: 340px;
+    color: white;
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    padding: 5px;
+    align-items: center;
+
+}
+
+.box6 {
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    padding: 20px;
+    align-items: center;
+}
+
+.font {
+    font-family: "Spicy Rice", serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.left2 {
+    width: 33%;
+    position: relative;
+}
+
+.middle2 {
+    width: 33%;
+    position: relative;
+}
+
+.right2 {
+    width: 33%;
+    position: relative;
+    
+}
+
+.l {
+    margin-top: 50px;
+    line-height: 60px;
+}
+.box7 {
+    top: 60px;
+    left: 40px;
+    color: white;
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    padding: 20px;
+    align-items: center;
+}
+.box8 {
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    padding: 10px;
+    align-items: center;
+}
+.box9 {
+   top:  10px;
+    right: 70px;
+    width: 250px;
+    position: absolute;
+    background: white;
+    padding: 20px;
+    align-items: center;
+    line-height: 40px;
+    
+}
+.view1 {
+    background: none;
+    border: 2px solid #F4B323;
+    color: black;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+}
+.div2{
+    background-image: url(https://www.shutterstock.com/image-photo/flying-dried-fruits-nuts-mix-600nw-2126002751.jpg);
+
+    
+}
+.y{
+    font-family: "Spicy Rice", serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+
+}
+.y1{
+    font-family: "roboto", sans-serif;
+   font-size: 40px;
+    font-weight:bold;
+    color: #F4B323;
+}
+.y2{
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+    color: #F4B323;
+    font-weight: lighter;
+}
+.y4{
+    width: 150px;
+    border: 2px solid #F4B323;
+}
